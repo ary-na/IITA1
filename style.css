@@ -1,0 +1,89 @@
+html, body {
+  font-family: 'Fira Sans Extra Condensed', arial, sans-serif;
+  background-color: #2a9d8f;
+}
+.container {
+  width: 80%;
+  max-width: 1000px;
+  margin: 30px auto;
+}
+.sectionContent {
+  width: 100%;
+  background: #264653;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  padding: 30px 30px;
+  color: #06d6a0;
+  text-align: justify;
+}
+#personalProfile img{
+float: none;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 80%;
+border: 1px solid #f4a261;
+}
+.sectionContent img {
+  width: 40%;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #f4a261;
+}
+.sectionContent ul {
+  list-style-type: none;
+}
+.sectionContent h3 {
+  border-bottom: 0.01em solid #f4a261;
+}
+.sectionTitle {
+  font-family: 'Fira Sans', arial, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 22px;
+  color: #264653;
+}
+#links a {
+  color: #06d6a0;
+}
+#links a:hover {
+  color: #fff95b;
+}
+#cv {
+  width: 20%;
+  float: right;
+  background: #e76f51;
+  padding: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+#cv h1{
+  color: #264653;
+}
+#cv ul {
+  list-style-type: none;
+  padding-left: 1px;
+  color: #264653;
+}
+#cv img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 300px;
+}
+
+a:link {
+  color: #264653;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:visited {
+  color: #264653;
+}
+a:hover {
+  color: #fff95b;
+}
